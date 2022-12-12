@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - all numbers base 16 in lowercase
+ * main - all numbers base in lowercase
  * Return: Always 0
  */
 int main(void)
