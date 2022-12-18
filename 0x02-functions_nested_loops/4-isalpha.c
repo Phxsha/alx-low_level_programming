@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isalpha - Checks for alphabet
- * Return: Alway 1 if TRUE and 0 if FALSE
+ * _isalpha - Return 1 if c is alphabet
+ * Return: Always 0
  * @c: assigned int
  */
 int _isalpha(int c)
