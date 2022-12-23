@@ -10,7 +10,7 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		return (0);
 	}
