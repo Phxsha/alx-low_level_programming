@@ -6,9 +6,9 @@
  */
 int _isupper(int c)
 {
-	int initial = 65, end = 98;
+	int start = 65, end = 98;
 
-	if (c >= initial && c <= end)
+	if (c >= start && c <= end)
 		return (1);
 
 	return (0);
