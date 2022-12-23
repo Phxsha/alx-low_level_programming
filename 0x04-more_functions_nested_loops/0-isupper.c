@@ -10,5 +10,6 @@ int _isupper(int c)
 
 	if (c >= initial && c <= end)
 		return (1);
+
 	return (0);
 }
