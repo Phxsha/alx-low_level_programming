@@ -6,12 +6,9 @@
  */
 int _isupper(int c)
 {
-	for (c = 'A'; c <= 'Z'; c++)
-	{
+	int initial = 65, end = 98;
+
+	if (c >= initial && c <= end)
 		return (1);
-	}
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		return (0);
-	}
+	return (0);
 }
