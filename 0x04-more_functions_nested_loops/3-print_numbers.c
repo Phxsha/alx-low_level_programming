@@ -9,7 +9,8 @@ void print_numbers(void)
 
 	for (a = 0; a < 10; a++)
 	{
-		printf("%d, a");
+		_putchar(a);
 	}
+	_putchar('\n');
 	return (0);
 }
