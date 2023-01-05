@@ -4,7 +4,7 @@
  * @s: string to be printed
  * Return: nothing on success
  */
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 	if (*s)
 	{
