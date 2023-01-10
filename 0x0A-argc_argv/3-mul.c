@@ -8,15 +8,15 @@
  */
 int main(int argc, char **argv)
 {
-	 int array_length = argc - 1;
+	int array_length = argc - 1;
 
-	 if (array_length != 2)
-	 {
-		 puts("Error");
+	if (array_length != 2)
+	{
+		puts("Error");
 
-		 return (1);
-	 }
-	 printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+		return (1);
+	}
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 
-	 return (0);
+	return (0);
 }
