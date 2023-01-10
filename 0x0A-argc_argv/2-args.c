@@ -5,7 +5,7 @@
  * @argv: number of elements
  * Return: Always 0
  */
-int (int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int i = 0;
 
